@@ -1,0 +1,3 @@
+#! /bin/bash
+# validate syntax
+exec rake check
