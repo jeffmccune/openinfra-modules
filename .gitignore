@@ -1,2 +1,5 @@
-hieradata/nodes/example-puppet-master.yaml
-hieradata/common.local.yaml
+/hieradata/nodes/example-puppet-master.yaml
+/hieradata/common.local.yaml
+/.bundle/
+/Gemfile.lock
+/modules/
