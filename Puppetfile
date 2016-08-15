@@ -2,29 +2,29 @@
 #
 
 mod 'inifile',
-  git: 'https://github.com/puppetlabs/puppetlabs-inifile',
+  git: 'git@master1:vagrant/inifile.git',
   tag: '1.5.0'
 
 mod 'simplegit',
-  git: 'https://github.com/jeffmccune/puppet-simplegit',
-  branch: '0.1.0'
+  git: 'git@master1:vagrant/simplegit.git',
+  tag: '0.1.0'
 
 mod 'stdlib',
-  git: 'https://github.com/puppetlabs/puppetlabs-stdlib',
+  git: 'git@master1:vagrant/stdlib.git',
   tag: '4.12.0'
 
 # Switch back to a released version once pull/29 is merged
 # https://github.com/ghoneycutt/puppet-module-selinux/pull/29
 mod 'selinux',
-  git: 'https://github.com/jeffmccune/puppet-module-selinux',
+  git: 'git@master1:vagrant/selinux.git',
   branch: 'master_forked'
 
 mod 'pam',
-  git: 'git@master1:dsw/pam.git',
+  git: 'git@master1:vagrant/pam.git',
   branch: 'ldapauthz'
 
 mod 'sssd',
-  :git => 'git@master1:dsw/sssd.git',
+  :git => 'git@master1:vagrant/sssd.git',
   :ref => 'ldapauthz'
 
 # Modules from Git
