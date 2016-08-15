@@ -30,3 +30,9 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node master1 {
+  # TODO: Turn this into a role and profile
+  include selinux
+  include simplegit
+}
