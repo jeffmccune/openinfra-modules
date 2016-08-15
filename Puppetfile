@@ -19,6 +19,14 @@ mod 'selinux',
   git: 'https://github.com/jeffmccune/puppet-module-selinux',
   branch: 'master_forked'
 
+mod 'pam',
+  git: 'git@master1:dsw/pam.git',
+  branch: 'ldapauthz'
+
+mod 'sssd',
+  :git => 'git@master1:dsw/sssd.git',
+  :ref => 'ldapauthz'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
