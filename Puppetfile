@@ -7,7 +7,7 @@ mod 'inifile',
 
 mod 'simplegit',
   git: 'https://github.com/jeffmccune/puppet-simplegit',
-  branch: 'setup'
+  branch: '0.1.0'
 
 mod 'stdlib',
   git: 'https://github.com/puppetlabs/puppetlabs-stdlib',
