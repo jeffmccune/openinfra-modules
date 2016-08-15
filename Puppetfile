@@ -1,10 +1,23 @@
-forge "http://forge.puppetlabs.com"
+# Modules supported and used by Open Infrastructure Services.
+#
 
-# Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
-#mod "puppetlabs/inifile",     '1.5.0'
-#mod "puppetlabs/stdlib",      '4.11.0'
-#mod "puppetlabs/concat",      '2.1.0'
+mod 'inifile',
+  git: 'https://github.com/puppetlabs/puppetlabs-inifile',
+  tag: '1.5.0'
+
+mod 'simplegit',
+  git: 'https://github.com/jeffmccune/puppet-simplegit',
+  branch: '0.1.0'
+
+mod 'stdlib',
+  git: 'https://github.com/puppetlabs/puppetlabs-stdlib',
+  tag: '4.12.0'
+
+# Switch back to a released version once pull/29 is merged
+# https://github.com/ghoneycutt/puppet-module-selinux/pull/29
+mod 'selinux',
+  git: 'https://github.com/jeffmccune/puppet-module-selinux',
+  branch: 'master_forked'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples

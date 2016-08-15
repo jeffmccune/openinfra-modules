@@ -1,2 +1,4 @@
 ---
 message: "This node is using common data"
+# Provide the `semanage` command
+simplegit::policytools: true
